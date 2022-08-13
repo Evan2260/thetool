@@ -1,0 +1,77 @@
+.nav-bar {
+  font-size: 35px;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  color: white;
+}
+
+.nav-item {
+  display: inline;
+  padding: 5px;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+a:active {
+  color: white;
+  text-decoration: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* .main{
+  max-width: 2700px;
+  margin: 0 auto;
+ } */
+
+.data {
+  color: white;
+  text-shadow: 3px 3px 3px black;
+  text-align: center;
+  padding: 35px;
+}
+
+.buttontile .link {
+  position: inherit;
+  width: auto;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  opacity: 0;
+}
+
+.new {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.item {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 56rem) {
+  .item {
+    width: 33.3333%;
+    padding: 30px;
+  }
+}
