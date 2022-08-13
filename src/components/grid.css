@@ -1,0 +1,14 @@
+.grid, .grid__row {
+  display: flex;
+  width: 100%;
+}
+
+.grid {
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.grid__row {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
