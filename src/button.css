@@ -2,3 +2,21 @@
   outline: 2px dashed blue;
   padding: 10px;
 }
+
+.button2 {
+  display: flex;
+}
+
+.flex-container {
+  flex-wrap: wrap;
+}
+
+.script{
+  outline: 2px dashed blue;
+  padding: 10px;
+}
+
+.script{
+  outline: 2px dashed green;
+  padding: 10px;
+}
