@@ -10,24 +10,43 @@ function App() {
         <div class="main">
           <ul class="new">
           <li class="item">
-            <div class="buttontile">
               <div class="data">
-              <Button />
-              <p>
-                Edit <code>src/App.js</code> and save to reload.
-              </p>
-              <a
-                className="App-link"
-                href="https://reactjs.org"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Learn React
-              </a>
+                <div className="button2">
+                  <Button />
+                  <Button />
+                  <Button />
+                  <Button />
+                </div>
               </div>
-            </div>
           </li>
           </ul>
+        </div>
+        <div class="main">
+          <ul class="new">
+          <li class="item">
+              <div class="data">
+                <div className="button2">
+                  <Button />
+                  <Button />
+                  <Button />
+                  <Button />
+                </div>
+              </div>
+          </li>
+          </ul>
+        </div>
+        <div>
+        <p>
+        Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+        className="App-link"
+        href="https://reactjs.org"
+        target="_blank"
+        rel="noopener noreferrer"
+        >
+        Learn React
+        </a>
         </div>
         </header>
     </div>
